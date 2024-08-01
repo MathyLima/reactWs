@@ -1,0 +1,121 @@
+#corpoPagina{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerPagina{
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainPagina{
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom right, rgba(73, 72, 72, 0.8), rgba(139, 138, 138, 0.8));
+    backdrop-filter: blur(2px);
+}
+
+
+
+#descricaoPagina{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+#headerDescricao{
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;  /* Define a fonte como negrito */
+    color: #f0f0f0;     /* Altera a cor da fonte para um tom mais claro */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao texto para aumentar a legibilidade */
+}
+#mainDescricao{
+    font-weight: bold;  /* Define a fonte como negrito */
+    color: #f0f0f0;     /* Altera a cor da fonte para um tom mais claro */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao texto para aumentar a legibilidade */
+}
+
+#bodyPaginaDescricao{
+    z-index: 1;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#vouEncontrar{
+    border-right: 1px solid black;
+    padding: 2rem;
+    font-weight: bold;  /* Define a fonte como negrito */
+    color: #f0f0f0;     /* Altera a cor da fonte para um tom mais claro */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao texto para aumentar a legibilidade */
+}
+.descricaoProjetos h5 {
+    font-size: 1.25rem; /* Aumenta o tamanho da fonte para dar mais destaque */
+    font-weight: bold;  /* Define a fonte como negrito */
+    color: #f0f0f0;     /* Altera a cor da fonte para um tom mais claro */
+    margin-bottom: 10px; /* Adiciona espaço abaixo do título */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra ao texto para aumentar a legibilidade */
+}
+#listaProjetosEncontrar{
+    width: 50%;
+}
+
+#footerPagina{
+    z-index: 1;
+    width: 100%;
+    height: 10%;
+   background-color: rgb(53, 51, 51);
+   
+}
+
+#containerConteudoHeader{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.controleJanelas{
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 15%;
+    transition: transform .5s ease, border .5s ease;
+}
+
+.controleJanelas:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
